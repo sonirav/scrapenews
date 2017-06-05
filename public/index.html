@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+       
+    <title>News Scraping</title>
+ 
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  </head>
+
+
+  <body>
+   <div class = 'Jumbotron' style="background-image:url('./assets/images/paper.jpeg');height:220px;background-repeat:no-repeat; background-size: 100% 100%">  <h1><b>News Scraper</b></h1><button class="btn btn-lg" id="sc">Scrape Now</button> </div>
+    <div class= "container-fluid" id="wrapper">
+      <div class = "col-lg-10" id="articles"></div>
+      <div class = "col-lg-2" id="notes"></div>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="app.js"></script>
+
+
+   
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Modal with Dark Overlay</h4>
+        </div>
+        <div class="modal-body">
+          <p>This modal has a dark overlay.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+  
+  </body>
+</html>

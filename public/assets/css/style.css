@@ -1,0 +1,58 @@
+      body { background-color: black }
+      #wrapper {
+        width: 90%;
+        margin-left: 1px;
+        margin-right: auto;
+        padding-top: 1%;
+      }
+      #articles {
+
+        overflow: auto;
+        width: 75%;
+        height: 700px;
+        color:black;
+        box-shadow: 10px 10px 5px #888888;
+        font-weight: bold;
+        font-family: Arial;
+        text-align: justify;
+        border-width: 2;
+        border-radius: 12px;
+        border-color: blue;
+        background-color: gray;
+        
+      }
+      #notes {
+        float: right;
+        width: 30%;
+      }
+      textarea, input {
+        display: block;
+        width: 100%;
+        background-color: #FCF5C7;
+      }
+      input {
+        height: 36px;
+        font-size: 24px;
+      }
+      textarea {
+        height: 200px;
+        font-size: 18px;
+      }
+.btn-circle {
+  width: 30px;
+  color: black;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+
+#sc{
+ border-width: 2;
+ border-radius:10px;
+ border-color: blue;
+ background-color: red;
+ color: white;
+}
