@@ -1,10 +1,12 @@
 {
-  "name": "mongoose_skeleton",
+  "name": "scrape news",
   "version": "1.0.0",
-  "description": "",
+  "description": "App in progress",
   "main": "server.js",
   "engines": {
-    "node": "7.7.3"
+    "node": "7.7.3",
+    "npm":"4.1.2",
+
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
